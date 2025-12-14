@@ -1,0 +1,16 @@
+name: mlops3
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - cpuonly
+  - matplotlib
+  - pip:
+      - bentoml>=1.2
+      - transformers
+      - pillow
+      - requests

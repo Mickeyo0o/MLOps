@@ -3,3 +3,7 @@ Homework1/pl_hw1_fashionmnist/
 Homework1/wandb/
 Homework2/__pycache__
 Homework2/data
+Homework3/__pycache__/
+Homework3/data/
+Homework3/*.pem
+Homework3/ubuntuawsconfig

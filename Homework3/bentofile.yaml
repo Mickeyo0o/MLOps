@@ -1,0 +1,9 @@
+service: "service.py:MobileNetV3SmallService"
+include:
+  - "service.py"
+python:
+  packages:
+    - "bentoml>=1.4.3"
+    - "torch"
+    - "torchvision"
+    - "pillow"
