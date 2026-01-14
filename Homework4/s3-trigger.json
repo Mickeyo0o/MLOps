@@ -1,0 +1,18 @@
+{
+  "LambdaFunctionConfigurations": [
+    {
+      "LambdaFunctionArn": "arn:aws:lambda:eu-central-1:818680680040:function:mlops-face-emotion",
+      "Events": ["s3:ObjectCreated:*"],
+      "Filter": {
+        "Key": {
+          "FilterRules": [
+            {
+              "Name": "suffix",
+              "Value": ".jpg"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
